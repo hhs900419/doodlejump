@@ -1,0 +1,19 @@
+<RCC>
+    <qresource prefix="/images">
+        <file alias="bullet">res/bullet.png</file>
+        <file alias="doodle">res/doodle.png</file>
+        <file alias="normal_floor">res/normal floor.gif</file>
+        <file alias="disappearing_floor">res/disappearing floor.png</file>
+        <file alias="bouncy_floor">res/bouncy floor.png</file>
+        <file alias="monster1">res/monster1.png</file>
+        <file>res/monster2.png</file>
+        <file alias="rocket">res/rocket.png</file>
+        <file alias="black_hole">res/black hole.png</file>
+        <file alias="star">res/ultimate star.png</file>
+        <file alias="ultimate_doodle">res/spacer.png</file>
+        <file alias="flying_doodle">res/flying doodle.png</file>
+        <file alias="bgm">soundtrack/African Coffin Dance Astronomia_320(PaglaSongs).mp3</file>
+        <file alias="monster 2">res/cute-alien.png</file>
+        <file alias="moving_floor">res/moving floor.png</file>
+    </qresource>
+</RCC>

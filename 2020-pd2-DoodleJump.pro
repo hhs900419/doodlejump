@@ -3,7 +3,7 @@
 # Project created by QtCreator 2020-04-22T13:25:25
 #
 #-------------------------------------------------
-
+QT       += multimedia
 QT       += core gui
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
@@ -24,17 +24,33 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 CONFIG += c++11
 
-SOURCES += \
-        main.cpp \
-        mainwindow.cpp
+SOURCES += main.cpp\
+        mainwindow.cpp \
+    bullet.cpp \
+    floor.cpp \
+    player.cpp \
+    floor_base.cpp \
+    monster.cpp \
+    blackhole.cpp \
+    prop_base.cpp \
+    prop.cpp
 
-HEADERS += \
-        mainwindow.h
+HEADERS  += mainwindow.h \
+    bullet.h \
+    floor.h \
+    player.h \
+    floor_base.h \
+    monster.h \
+    blackhole.h \
+    prop_base.h \
+    prop.h
 
-FORMS += \
-        mainwindow.ui
+FORMS    += mainwindow.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
 else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
+
+RESOURCES += \
+    res.qrc
